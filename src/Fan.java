@@ -31,6 +31,7 @@ public class Fan {
 	public void speed() {
 		if (speed >= 3) {
 			speed = powerOff;
+
 		} else {
 			speed++;
 			
@@ -43,7 +44,7 @@ public class Fan {
 		}else {
 			direction = "FORWARD";
 		}
-		System.out.println(direction);
+
 	}
 
 	public String toString(){
